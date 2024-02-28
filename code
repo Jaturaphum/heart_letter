@@ -1,0 +1,48 @@
+💕 
+
+body {
+    background-color: #f7d9da;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+.pocket {
+    border-left: 280px solid #ff9999;
+    border-right: 280px solid #ff9999;
+    border-bottom: 180px solid #fd8787;
+    border-top: 190px solid transparent;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.flap {
+    border-left: 280px solid transparent;
+    border-right: 280px solid transparent;
+    border-bottom: 82px solid transparent;
+    border-top: 192px solid #ff5757;
+    transform-origin: top;
+    pointer-events: none;
+}
+
+.letter {
+    position: relative;
+    background-color: #ffb4b8;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    top: 0%;
+    border-radius: 6px;
+    box-shadow: 0 2px 26px rgba(0, 0, 0, 0.12);
+}
+
+.words {
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    height: 14%;
+    background-color: #fdb7ba;
+}
